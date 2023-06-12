@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#clickToHide").click(function () {
+          $("#hideMe").hide();
+        });
+        $("#clickToHideTimed").click(function () {
+          $("#hideMe").hide(1000);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1 id="hideMe">Hide Me</h1>
+    <h1 id="hideMeTimed">Hide Me 2</h1>
+    <button id="clickToHide">Click to hide</button>
+    <button id="clickToHideTimed">Hide timed</button>
+  </body>
+</html>

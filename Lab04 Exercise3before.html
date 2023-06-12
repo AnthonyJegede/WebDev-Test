@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample HTML Code - NewsLetter Form</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+    
+  </style>
+</head>
+
+<body>
+  <main>
+    <!-- intro section -->
+    <section class="intro">
+      <h1 class="title">Hot Deals for learning Programming</h1>
+      <p>Get up to 30% off on all our products and services. Hurry up, the offer ends in 48 hours.</p>
+    </section>
+
+    <!-- sign-up section -->
+    <section class="sign-up">
+      <p class="sign-up-para">Sign up for our newsletter and get 30% off your first course</p>
+      <!-- the form itself -->
+      <form class="sign-up-form">
+        <div class="form-input">
+          <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+          <span>!</span>
+          <p class="warning">First name </p>
+        </div>
+
+        <div class="form-input">
+          <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+          <span>!</span>
+          <p class="warning">Last name </p>
+        </div>
+
+        <div class="form-input">
+          <input type="email" name="email" id="email" placeholder="Email Address" required>
+          <span>!</span>
+          <p class="warning">Looks like this is not an email</p>
+        </div>
+
+        <div class="form-input">
+          <input type="Password" name="Password" id="Password" placeholder="Password" required>
+          <span>!</span>
+          <p class="warning">Password </p>
+        </div>
+
+        <input class="submit-btn" type="submit" value="Claim your offer">
+        <p class="form-term">By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
